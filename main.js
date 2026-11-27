@@ -69,6 +69,7 @@ function check(chosen, answer) {
         score++;
     } else {
         score = 0;
+        startBtn.textContent = 'try again'
         main.classList.remove('play');
     }
     play();
